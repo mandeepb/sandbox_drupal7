@@ -15,7 +15,7 @@
 /* Component (SMACSS module) rules */
 @import "components/misc.css";
 /* Optionally, add your own components here. */
-@import "print.css";
+@import "custom.css";
 
 /* SMACSS theme rules */
 /* @import "theme-A.css"; */

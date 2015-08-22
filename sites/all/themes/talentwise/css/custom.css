@@ -1,6 +1,9 @@
 /*--------custom css------*/
+#content {
+  font-family: 'Cabin', sans-serif;
+}
 .view-id-team_member_list {
-  padding: 0 11%;
+  padding: 0 10%;
 }
 .views-row-odd, .views-field-field-image {
   float: left;
@@ -8,11 +11,9 @@
 .views-row-even {
   float: right;
 }
-.views-field-body {
-  clear: right;
-}
 .views-row-odd, .views-row-even {
-  width: 46%;
+  width: 49%;
+  margin-top: 109px;
 }
 .views-field-field-image {
   position: relative;
@@ -24,4 +25,22 @@
 }
 .field-content img {
   width:150px;
+}
+.views-field-title{
+  font-size: 24px;
+  color: #1F2324;
+}
+.views-field-title, .views-field-body, .views-field-field-name {
+  position: relative;
+  right: -9px;
+}
+.views-field-body {
+  top: -11px;
+  padding-right: 61px;
+  text-transform: capitalize;
+}
+.views-field-field-name {
+  font-size: 30px;
+  color: #0076ce;
+  padding-bottom: 8px;
 }

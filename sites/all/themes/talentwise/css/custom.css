@@ -1,0 +1,27 @@
+/*--------custom css------*/
+.view-id-team_member_list {
+  padding: 0 11%;
+}
+.views-row-odd, .views-field-field-image {
+  float: left;
+}
+.views-row-even {
+  float: right;
+}
+.views-field-body {
+  clear: right;
+}
+.views-row-odd, .views-row-even {
+  width: 46%;
+}
+.views-field-field-image {
+  position: relative;
+  top: 1px;
+  right: 19px;
+}
+.field-content p {
+  font-size: 14px;
+}
+.field-content img {
+  width:150px;
+}

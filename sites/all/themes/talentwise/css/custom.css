@@ -1,4 +1,5 @@
 /*--------custom css------*/
+
 #content {
   font-family: 'Cabin', sans-serif;
 }
@@ -60,7 +61,57 @@
 /******----------talentwise responsive css---------*********/
 /* Portrait and Landscape */
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 960px) and (max-width: 1100px) {
+  #page-title {
+    font-size: 30px;
+    padding-bottom: 60px;
+  }
+  .team-member {
+    padding: 0 8%;
+  }
+  .team-member-name {
+    font-size: 26px;
+  }
+  .team-member-title {
+    font-size: 18px;
+  }
+  .team-member-body p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .team-member-image {
+    padding-bottom: 48px;
+  }
+  .team-member-body {
+    padding-right: 32px;
+  }
+  .views-row-odd, .views-row-even {
+    margin-top: 30px;
+    width: 49%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 960px) {
+  #page-title {
+    padding-bottom: 115px;
+  }
+  .views-row-even {
+    float: none;
+    padding-bottom: 15px;
+  }
+  .views-row-odd {
+    padding-bottom: 15px;
+  }
+  .views-row-odd, .views-row-even {
+    width: 100%;
+    margin-top: 0;
+  }
+  .team-member {
+    padding: 0 7%;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   #page-title {
     font-size: 27px;
     margin-left: 55px;

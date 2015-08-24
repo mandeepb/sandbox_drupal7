@@ -3,6 +3,9 @@
 #content {
   font-family: 'Cabin', sans-serif;
 }
+#page-title {
+  padding-bottom: 112px;
+}
 .team-member {
   padding: 0 10%;
 }
@@ -14,7 +17,7 @@
 }
 .views-row-odd, .views-row-even {
   width: 49%;
-  margin-top: 109px;
+  margin-bottom: 100px;
 }
 .team-member-image {
   position: relative;
@@ -22,7 +25,7 @@
   right: 19px;
 }
 .field-content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 .team-member-image img {
   width:150px;
@@ -34,10 +37,11 @@
 .team-member-title, .team-member-body, .team-member-name {
   position: relative;
   right: -9px;
+
 }
 .team-member-body {
   top: -15px;
-  padding-right: 61px;
+  padding-right: 40px;
   text-transform: capitalize;
   color: #1F2324;
 }
@@ -61,7 +65,7 @@
 /******----------talentwise responsive css---------*********/
 /* Portrait and Landscape */
 
-@media screen and (min-width: 960px) and (max-width: 1100px) {
+@media screen and (min-width: 960px) and (max-width: 1200px) {
   #page-title {
     font-size: 30px;
     padding-bottom: 60px;
@@ -76,7 +80,7 @@
     font-size: 18px;
   }
   .team-member-body p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
   }
   .team-member-image {
@@ -88,11 +92,14 @@
   .views-row-odd, .views-row-even {
     margin-top: 30px;
     width: 49%;
+    margin-bottom: 0;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 960px) {
+@media screen and (min-width: 560px) and (max-width: 960px) {
   #page-title {
-    padding-bottom: 115px;
+    padding-bottom: 80px;
+    margin-left: 30px;
+    font-size: 28px;
   }
   .views-row-even {
     float: none;
@@ -103,15 +110,25 @@
   }
   .views-row-odd, .views-row-even {
     width: 100%;
-    margin-top: 0;
+    margin-bottom: 0;
   }
   .team-member {
     padding: 0 7%;
   }
+  .team-member-body p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .team-member-name {
+    font-size: 26px;
+  }
+  .team-member-title {
+    font-size: 22px;
+  }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 560px) {
   #page-title {
     font-size: 27px;
     margin-left: 55px;
@@ -123,6 +140,7 @@
   .views-row-odd, .views-row-even {
     width: 100%;
     margin-top:-4px;
+    margin-bottom: 0px;
   }
   .team-member-image img {
     width: 100px;
@@ -140,6 +158,7 @@
   }
   .team-member-body p{
     font-size: 10px;
+    text-align: justify;
   }
   .team-member-image {
     position: relative;

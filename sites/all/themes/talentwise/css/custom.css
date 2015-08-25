@@ -131,7 +131,7 @@
 @media screen and (min-width: 320px) and (max-width: 560px) {
   #page-title {
     font-size: 27px;
-    margin-left: 46px;
+    margin-left: 10px;
     padding-bottom: 48px;
   }
   .team-member {
@@ -164,19 +164,18 @@
     position: relative;
     top: -3px;
     right: -19px;
-    padding-bottom: 23px;
-  }
-  .pane-views-team-member-list-block  {
-    padding: 0 7%;
+    padding-bottom: 30px;
+
   }
   .team-member-body {
     top: -18px;
     line-height: 1.6;
     padding-right: 0;
     right: 3px;
+    width:305px;
   }
   .pane-views-team-member-list-block {
-    right: 10px;
+    right: 17px;
 }
 }
 
